@@ -6,7 +6,7 @@ authors = ["Rinrin.rs <rinrin0413.valley@gmail.com>"]
 license-file = "LICENSE.md"
 repository = "https://github.com/Rinrin0413/cjp-rs.git"
 readme = "README.md"
-keywords = ["怪レい日本语", "怪レい", "cjp", "correctJP", "Japanese"]
+keywords = ["cjp", "correctJP", "Japanese"]
 edition = "2021"
 
 [dependencies]
