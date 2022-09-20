@@ -1,5 +1,5 @@
 #![allow(clippy::needless_doctest_main)]
-//! ![Latest release version](https://img.shields.io/github/v/release/Rinrin0413/cjp-rs?color=007722&label=Latest%20release&style=flat-square) <!--[![Codecov](https://img.shields.io/codecov/c/github/Rinrin0413/cjp-rs?color=%ff0000&logo=Codecov&style=flat-square)](https://app.codecov.io/gh/Rinrin0413/cjp-rs)-->
+//! ![Latest release version](https://img.shields.io/github/v/release/Rinrin0413/cjp-rs?color=007722&label=Latest%20release&style=flat-square) [![Codecov](https://img.shields.io/codecov/c/github/Rinrin0413/cjp-rs?color=%#27b340&logo=Codecov&style=flat-square)](https://app.codecov.io/gh/Rinrin0413/cjp-rs)
 //!
 //! cjp.rs is a Rust library for converting strings to 怪レい日本语(correct Japanese).
 //!
