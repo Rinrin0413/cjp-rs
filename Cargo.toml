@@ -1,0 +1,12 @@
+[package]
+name = "cjp"
+description = "a Rust library for converting strings to 怪レい日本语(correct Japanese)."
+version = "0.1.0"
+authors = ["Rinrin.rs <rinrin0413.valley@gmail.com>"]
+license-file = "LICENSE.md"
+repository = "https://github.com/Rinrin0413/cjp-rs.git"
+readme = "README.md"
+keywords = ["怪レい日本语", "怪レい", "cjp", "correctJP", "Japanese"]
+edition = "2021"
+
+[dependencies]
