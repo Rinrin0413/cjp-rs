@@ -49,12 +49,12 @@ use crate::dict::Dict;
 /// A trait that can convert strings to 怪レい日本语.
 ///
 /// 贵樣ばこゐㇳレ亻ㇳて怪レい日本语に変換ずゑことが出來ゑ.
-pub trait AsCJp {
+pub trait AsCjp {
     /// Converts the given value to 怪レい日本语.
     fn cjp(self) -> String;
 }
 
-impl AsCJp for String {
+impl AsCjp for String {
     /// Converts the given value to 怪レい日本语.
     ///
     /// # Examples
@@ -70,7 +70,7 @@ impl AsCJp for String {
     }
 }
 
-impl AsCJp for &str {
+impl AsCjp for &str {
     /// Converts the given value to 怪レい日本语.
     ///
     /// # Examples
@@ -95,7 +95,7 @@ mod tests {
     #[test]
     fn string_as_cjp() {
         let s = "貴方は怪しい日本語を使うことが出来る。".to_string();
-        assert_eq!(s.cjp(), "贵様は怪レい日本语を使ラこと力゛出來ゑ ⸰ ");
+        assert_eq!(s.cjp(), "贵樣は怪レい日本语を使ラこと力゛出來ゑ ⸰ ");
     }
 
     #[test]
