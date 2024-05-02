@@ -1,7 +1,7 @@
 pub(crate) struct Dict {
     words: Vec<(String, String)>,
     chars: Vec<(String, String)>,
-    importants: Vec<(String, String)>,
+    overwrites: Vec<(String, String)>,
 }
 
 impl Dict {
@@ -13,7 +13,7 @@ impl Dict {
         for (from, to) in &self.chars {
             s = s.replace(from, to);
         }
-        for (from, to) in &self.importants {
+        for (from, to) in &self.overwrites {
             s = s.replace(from, to);
         }
         s
@@ -482,7 +482,7 @@ impl Dict {
         ("、".to_string(), "︑".to_string()),
             ],
 
-            importants: vec![
+            overwrites: vec![
         ("贵样".to_string(), "贵様".to_string()),
         ("危险".to_string(), "危險".to_string()),
         ("优秀ゐ".to_string(), "优秀の".to_string()),
