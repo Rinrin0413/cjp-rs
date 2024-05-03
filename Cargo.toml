@@ -1,7 +1,7 @@
 [package]
 name = "cjp"
 description = "A library for converting strings to 怪レい日本语(Ayashī Nihongo)."
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Rinrin.rs <rinrin0413.valley@gmail.com>"]
 license = "MIT"
 repository = "https://github.com/Rinrin0413/cjp-rs.git"
