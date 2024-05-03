@@ -32,7 +32,7 @@ cargo add cjp
 You can convert strings to 怪レい日本语(Ayashī Nihongo) by importing the `cjp::AsCjp` trait and calling its method `cjp` on a string.
 
 ```rust
-use cjp:AsCjp;
+use cjp::AsCjp;
 
 fn main() {
     let s = "貴方は怪しい日本語を使うことが出来る。".to_string();
